@@ -53,7 +53,6 @@ if(isset($get_address['address'])){
 
 
 } else {
-	$return['wallet']	= 'wallet-'.$i;
 	$return['message']	= 'Cannot connect to RPC Wallet';
 }
 
