@@ -22,6 +22,7 @@ apt install -y php php-curl
    ```
 
 2. Once done, change the `$pay_to` variable to your own wallet address, replace `<address>` with your own address in the snippet below:
+   # BE CAREFUL AND MAKE SURE TO USE YOUR ADDRESS HERE
    ```sh
    cd scripts && sed -i s"|PUT_YOUR_ADDRESS_HERE|<address>|" sweep_account.php 
    ```
