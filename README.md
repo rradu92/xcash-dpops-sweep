@@ -23,7 +23,7 @@ apt install -y php php-curl
 
 2. Once done, change the `$pay_to` variable to your own wallet address, replace `<address>` with your own address in the snippet below:
    ```sh
-   cd scripts && sed -i s"|PUT_YOUR_ADDRESS_HERE|<address>|" 
+   cd scripts && sed -i s"|PUT_YOUR_ADDRESS_HERE|<address>|" sweep_account.php 
    ```
 
 3. Done, now you can make a cron job to execute it every hour or every day, or whatever you want, for example:
