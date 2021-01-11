@@ -3,7 +3,7 @@
 require('src/jsonRPCClient.php');
 require('src/walletRPC.php');
 
-$pay_to		= "XCA1um7C98XNv379wmqQ2gjNVr8LfvvgC7u4SaJmP7w8g3Xn17EJtMYRVsxSpxXypFTVn9XQfJDf1ckRsaHwtu4y7tTrJn8cLs";
+$pay_to		= "PUT_YOUR_ADDRESS_HERE";
 $return		= [];
 
 $max_retries	= 10;
